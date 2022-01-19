@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.arrow{
+    display: flex;
+}
+.arrow .arrow-prev,.arrow .arrow-next{
+    width: 53px;
+    height: 53px;
+    border: 1px solid #F2F2F2;
+    cursor:pointer;
+    transition: 0.4s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.arrow-next{
+    margin-left: 23px;
+}
+.arrow-next:hover,.arrow-prev:hover{
+    background-color: #F9F9F9;
+}
+.myButton{
+    position: absolute;
+    width: 222px;
+    height: 71px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+    left: 0;
+    cursor:pointer;
+}
+.myButton .text{
+    font-size: 12px;
+    line-height: 12px;
+    color:#333333;
+    margin-right: 15px;
+}
+
+
+
+
+
+.navbar{
+    height: 102px;
+}
+.navbar .top-menu{
+    display: flex;
+    width: 100%;
+}
+.top-menu .brand{
+    width: 40%;
+    margin-top: 31px;
+}
+.top-menu .menu{
+    width: 60%;
+    margin-top: 38px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 45px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s linear;
+}
+.menu ul li:hover{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+
+}
+.menu ul li:nth-child(1){
+    margin-left: 0;
+}
+.menu a{
+    color: #333333;
+    text-decoration: none;
+}
+
+header .project{
+    display: flex;
+    width: 100%;
+}
+header .project-name{
+    width: 40%;
+    margin-top: 365px;
+}
+header .title{
+    line-height: 64px;
+    font-size: 64px;
+    font-weight: 300;
+    color: #BDBDBD;
+}
+header .title div{
+    font-weight: bold;
+    color: black;
+}
+header .project-images{
+    width: 60%;
+    position: relative;
+}
+header .project-images img{
+    width: 100%;
+}
+
+
+.section-one{
+    margin-top: 120px;
+}
+.section-one .container{
+    background-color: #f8f8f8;
+}
+.section-one .about-company{
+    display: flex;
+    width: 100%;
+    padding:30px 70px 0 100px ;
+}
+.about-company .first div:nth-child(2){
+transform: translateY(30px);
+}
+.about-company .second{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.about-company .right-site{
+    margin-left: 30px;
+    position: relative;
+}
+.about-company .right-site .myButton{
+    bottom: 30px;
+}
+.about-company .right-site .title{
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    font-weight: 300;
+}
+.about-company .right-site .commit{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
